@@ -1,7 +1,7 @@
 <?php
 /** @package    TEST */
 
-/* GlobalConfig object contains all configuration information for the app */
+/* GlobalConfig object contains all configuration information for the app 
 include_once("_global_config.php");
 include_once("_app_config.php");
 @include_once("_machine_config.php");
@@ -11,7 +11,7 @@ if (!GlobalConfig::$CONNECTION_SETTING)
 	throw new Exception('GlobalConfig::$CONNECTION_SETTING is not configured.  Are you missing _machine_config.php?');
 }
 
-/* require framework libs */
+/* require framework libs 
 require_once("verysimple/Phreeze/Dispatcher.php");
 
 // the global config is used for all dependency injection
@@ -50,5 +50,8 @@ catch (exception $ex)
 	}
 
 }
+*/
+
+echo phpinfo();
 
 ?>
