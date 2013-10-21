@@ -51,7 +51,7 @@ catch (exception $ex)
 
 }
 */
-echo "TEST!";
+echo "TEST";
 echo phpinfo();
 
 ?>
